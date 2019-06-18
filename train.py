@@ -84,7 +84,7 @@ def parse_args():
     parser.add_argument('--training_steps', type=int, default=200000)
     parser.add_argument('--training_steps_decayafter', type=int, default=200000)
     parser.add_argument('--batch_size', type=int, default=16)
-    parser.add_argument('--gpu_frac', type=float, default=.4)
+    parser.add_argument('--gpu_frac', type=float, default=1)
     parser.add_argument('--restore_folder', type=str, default='')
     parser.add_argument('--learning_rate', type=float, default=.0002)
 
